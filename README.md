@@ -51,5 +51,5 @@ coloured box is the IQR range.
 Explanatory data analysis is a key in order to have better understanding and representing your data,which helps in bulding stronger,
 more generalized model.so,the visualization of the data is easy to achieve,which facilitates the comprehension of our analysis.
 				
-				
+			
 				
