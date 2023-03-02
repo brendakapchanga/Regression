@@ -11,7 +11,7 @@
 		 region-whethe the customer is from southwest or northwest
 		 smoker-whether the customer is a smoker or not
 		 
-		            Steps follo
+		            Steps followed
 	      checking the shape of dataset to determine the number of rows and columns.
 	      checking for missing values and handle them appropriately.
               checking the data types of the variables to ensure they are in the correct format.
@@ -21,9 +21,9 @@
 			  checking the distribution of the categorical variables using  catplot.
 			    
 				
-				Descriptions
+				       Descriptions
 				       Heatmap.
-				The correlation heatmap illustrates the relationship between each dataset compared to every other dataset.Black indicates a close relatonship
+			    The correlation heatmap illustrates the relationship between each dataset compared to every other dataset.Black indicates a close                                       relatonship.
 			    Purple indicates a more distant correlation in the data.The heatmap tells that age,bmi and charges have a high correlation coefficient and
 			    affect each other.Age and bmi have a lower correlation coefficient.
 					  
