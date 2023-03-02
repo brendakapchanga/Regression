@@ -11,9 +11,9 @@
 		 region-whethe the customer is from southwest or northwest
 		 smoker-whether the customer is a smoker or not
 		 
-		            Steps followed
-			  checking the shape of dataset to determine the number of rows and columns.
-		      checking for missing values and handle them appropriately.
+		            Steps follo
+	      checking the shape of dataset to determine the number of rows and columns.
+	      checking for missing values and handle them appropriately.
               checking the data types of the variables to ensure they are in the correct format.
               summarise the statistics of the variables.
               visualize the distribution of the variables using Heatmap.
