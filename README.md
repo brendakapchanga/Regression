@@ -18,7 +18,7 @@ for their data and getting to know the variables and relationship between them.
  summarise the statistics of the variables,
  visualize the distribution of the variables using Heatmap,
  checking the relationship between variables using pair plots,displot and Relplot,
- checking the distribution of the categorical variables using  catplot,
+ checking the distribution of the categorical variables using  catplot.
 			    
 				
     Descriptions
