@@ -12,13 +12,13 @@ for their data and getting to know the variables and relationship between them.
 		 smoker-whether the customer is a smoker or not
 		 
 	  Steps followed
- checking the shape of dataset to determine the number of rows and columns.
- checking for missing values and handle them appropriately.
- checking the data types of the variables to ensure they are in the correct format.
- summarise the statistics of the variables.
- visualize the distribution of the variables using Heatmap.
- checking the relationship between variables using pair plots,displot and Relplot
- checking the distribution of the categorical variables using  catplot.
+ checking the shape of dataset to determine the number of rows and columns,
+ checking for missing values and handle them appropriately,
+ checking the data types of the variables to ensure they are in the correct format,
+ summarise the statistics of the variables,
+ visualize the distribution of the variables using Heatmap,
+ checking the relationship between variables using pair plots,displot and Relplot,
+ checking the distribution of the categorical variables using  catplot,
 			    
 				
     Descriptions
@@ -41,7 +41,7 @@ while the number of those not smoking does not increase.proportionally they do n
 From the histogram we can confirm that the median count for bmi lies around 30.
 				
      catplot
-The plot indicates that the charges in southeast region tend to higer and have more variation than the charges in other regions.
+The plot indicates that the charges in southeast region tend to be higher and have more variation than the charges in other regions.
 By looking at the plot,it can be said that regardless of charges for each region the average charges ranges from 0-50000.The majority
 of the regions charges are below 60000.
 Based on the defination of how we identify outliers the black dots are outliers in the charges factor attribute and the blue
