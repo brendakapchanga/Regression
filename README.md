@@ -1,6 +1,6 @@
     EXPLANATORY DATA ANALYSIS 
               Introduction
-This is an explanatory data analysis for insurance company used in predicting data visualization
+This is an explanatory data analysis for insurance company used to carry out data visualization
 for their data and getting to know the variables and relationship between them.
 	   
     Variables in the Data set
@@ -53,6 +53,8 @@ more generalized model.so,the visualization of the data is easy to achieve,which
 
 
 
+
+
 				
 			
 	
@@ -60,7 +62,7 @@ more generalized model.so,the visualization of the data is easy to achieve,which
 	
 	Churn_Modelling
         Introduction
-This is a predictive model for a customer in a bank predicting whether a customer is excited with the bank or not, whether the customer is going to leave the banks services or not based on the behaviour with their products.
+This is a predictive model for a customer in a bank company predicting whether a customer will churn based on the behaviour with their products.
 
      Variables used in the dataset
 RowNumber: a unique identifier for each record.
