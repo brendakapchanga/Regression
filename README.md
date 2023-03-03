@@ -50,6 +50,49 @@ coloured box is the IQR range.
      Conclusion
 Explanatory data analysis is a key in order to have better understanding and representing your data,which helps in bulding stronger,
 more generalized model.so,the visualization of the data is easy to achieve,which facilitates the comprehension of our analysis.
+
+
+
 				
 			
-				
+	
+	
+	
+	Churn_Modelling
+        Introduction
+This is a predictive model for a customer in a bank predicting whether a customer is excited with the bank or not, whether the customer is going to leave the banks services or not based on the behaviour with their products.
+     Variables used
+RowNumber: a unique identifier for each record.
+CustomerId: a unique identifier foe each customer.
+Surname: a surname of customer.
+CreditScore: credit score of customer.
+Geography: country of the customer.
+Age: age of the customer.
+Gender: whether a male or female.
+Tenure: period which the customer has been in the bank.
+Balance: customers account.
+NumOfProducts: number of bank products the customer is using.
+HasCrCard: whether the customer has a credit card or not.
+IsActiveMember: whether the customer is active or not.
+Salary:  Estimated salary of the customer.
+Exited: indicates whether the customer is exited with the bank or not.
+
+          Steps Followed
+load the customer churn data into pandas dataframe 
+perform explanatory data analysis by checking the head of the data,the shape of data,for missing values and  plotting the distribution of numerical and categorical variables
+prepare the data for the model by splitting it into training and test sets,one-hot encoding categorical variables and fitting a logistic regression model
+predict customer churn using the logistic regression model and evaluate its performance using the classification report
+
+                     Explanation
+The code first loads the data into a pandas dataframe and performs EDA operations such statistical summary, distribution of target column and checking missing values 
+Next,it then encodes the categorical features and concatenates the encoded features with the original data
+Lastly,it splits the data into training and testing sets and fits a Logistic Regression model on the training data.It then predicts the target on the test data and evaluates the model using the confusion and classification report.
+
+
+                      conclusion
+With Machine learning and deep analysis it is possible to predict which customer is excited with the bank company and who will leave the services depending on the products offered.		      
+
+
+
+
+	           
