@@ -61,7 +61,8 @@ more generalized model.so,the visualization of the data is easy to achieve,which
 	Churn_Modelling
         Introduction
 This is a predictive model for a customer in a bank predicting whether a customer is excited with the bank or not, whether the customer is going to leave the banks services or not based on the behaviour with their products.
-     Variables used
+
+     Variables used in the dataset
 RowNumber: a unique identifier for each record.
 CustomerId: a unique identifier foe each customer.
 Surname: a surname of customer.
@@ -77,11 +78,11 @@ IsActiveMember: whether the customer is active or not.
 Salary:  Estimated salary of the customer.
 Exited: indicates whether the customer is exited with the bank or not.
 
-          Steps Followed
-load the customer churn data into pandas dataframe 
-perform explanatory data analysis by checking the head of the data,the shape of data,for missing values and  plotting the distribution of numerical and categorical variables
-prepare the data for the model by splitting it into training and test sets,one-hot encoding categorical variables and fitting a logistic regression model
-predict customer churn using the logistic regression model and evaluate its performance using the classification report
+                    Steps Followed
+load the customer churn data into pandas dataframe,
+perform explanatory data analysis by checking the head of the data,the shape of data,for missing values and  plotting the distribution of numerical and categorical variables,
+prepare the data for the model by splitting it into training and test sets,one-hot encoding categorical variables and fitting a logistic regression model,
+predict customer churn using the logistic regression model and evaluate its performance using the classification report.
 
                      Explanation
 The code first loads the data into a pandas dataframe and performs EDA operations such statistical summary, distribution of target column and checking missing values 
